@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá, me chamo Maxwell Freire. Gosto de tudo relacionado a tecnologia, também de praticar esportes e jogos online.</p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação</h2>
+        <p>Atualmente curso Análise e desenvolvimento de sistemas na Uninter. Falo inglês fluentemente.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Confira alguns dos projetos que fiz:</p>
+        <ul>
+            <li><a href="https://github.com/maxwellandersons/biscoitodasorte">Projeto 1</a></li>
+            <img src="images/biscoito.png" alt="imagem de um biscoito da sorte">
+          <br><br>
+            <li><a href="https://github.com/maxwellandersons/blogdegatos">Projeto 2</a></li>
+            <img src="images/gatos.png" alt="imagem de um site sobre gatos">
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <p id="thank-you-message" style="display:none;">Obrigado por entrar em contato!</p> 
+    </section>
+</body>
+<script src="js/script.js"></script> 
+</html>
